@@ -4,6 +4,9 @@ source "https://rubygems.org"
 
 gem "jekyll-theme-chirpy", "~> 5.6", ">= 5.6.1"
 
+# Locale (i18n)
+gem "jekyll-polyglot"
+
 group :test do
   gem "html-proofer", "~> 3.18"
 end

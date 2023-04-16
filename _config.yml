@@ -12,6 +12,15 @@ baseurl: ""
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
+# polyglot
+languages: ["en", "pt-BR"]
+default_lang: "en"
+exclude_from_localization: ["assets"]
+parallel_localization: true
+
+plugins:
+  - jekyll-polyglot
+
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: America/Sao_Paulo
 
@@ -69,7 +78,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark # [light|dark]
+theme_mode: # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
